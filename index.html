@@ -11,6 +11,16 @@
             margin: 20px;
         }
 
+        #left-column {
+            flex: 2;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        #right-column {
+            flex: 8;
+        }
+
         header {
             text-align: center;
         }
@@ -42,7 +52,7 @@
 </head>
 
 <body>
-
+    <div id="left-column">
     <header>
         <h1>Can CUI</h1>
         <img src="profile.JPG" alt="Your Photo">
@@ -55,7 +65,10 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/can-cui-">LinkedIn Profile</a></p>
         <p>GitHub: <a href="https://github.com/can-cui">GitHub Profile</a></p>
     </section>
+    </div>
 
+    
+    <div id="right-column">
     <section id="education">
         <h2>Education</h2>
         <ul>
@@ -101,6 +114,7 @@
             <!-- Add more publications as needed -->
         </ul>
     </section>
+</div>
 
 </body>
 
