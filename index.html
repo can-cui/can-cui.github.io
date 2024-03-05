@@ -18,12 +18,16 @@
             text-align: center;
             background-color: rgb(200, 237, 250);
             padding: 20px;
+            position: sticky;
+            top: 0;
         }
 
         #right-column {
             flex: 8;
             background-color: rgb(250, 242, 200); /* Light yellow background color for the right column */
             padding: 20px;
+            overflow-y: auto; /* Make the right column scrollable */
+            max-height: 100vh; /* Set maximum height to full viewport height */
         }
 
         img {
@@ -61,7 +65,7 @@
     </header>
 
     <section id="contact">
-        <h2>Contact Information</h2>
+        <p>Nationality: Chinese</p>
         <p>Email: cuicanenfrance@gmail.com</p>
         <p>Phone: +33 (0)659337638</p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/can-cui-">LinkedIn Profile</a></p>
